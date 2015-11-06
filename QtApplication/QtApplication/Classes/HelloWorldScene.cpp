@@ -43,6 +43,7 @@ bool HelloWorld::init(AppDelegate *delegate)
 	this->_bgSprite = nullptr;
 	this->_particleSystem = nullptr;
 	this->_enableBgMoved = false;
+	this->_isShowBackground = true;
 
 	this->setTouchMode(Touch::DispatchMode::ONE_BY_ONE);
 	this->setTouchEnabled(true);
@@ -124,6 +125,7 @@ void HelloWorld::setBackground(std::string &path)
 		this->_bgSprite = Sprite::create();
 		this->addChild(_bgSprite, 0);
 		_bgSprite->setScale(_scale);
+		_bgSprite->setVisible(_isShowBackground);
 	}
 	auto spriteFrame = SpriteFrameCache::getInstance()->getSpriteFrameByName(path);
 	if (spriteFrame == nullptr)
@@ -170,5 +172,7 @@ void HelloWorld::onTouchCancelled(Touch *touch, Event *unused_event)
 
 void HelloWorld::isShowBackground(bool isShow)
 {
-	this->_bgSprite->setVisible(isShow);
+	this->_isShowBackground = isShow;
+	if ( this->_bgSprite)
+		this->_bgSprite->setVisible(isShow);
 }

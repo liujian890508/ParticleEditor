@@ -9,7 +9,6 @@
 #include "../../Classes/CocosQtPort/CCQGLWidget.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
-#include "cocos2d.h"
 using namespace cocos2d;
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'CCQGLWidget.h' doesn't include <QObject>."

@@ -53,6 +53,7 @@ private:
 	std::string _bgPath;
 	bool _enableBgMoved;
 	float _scale;
+	bool _isShowBackground;
 };
 
 #endif // __HELLOWORLD_SCENE_H__
