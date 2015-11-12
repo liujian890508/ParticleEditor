@@ -239,6 +239,9 @@ Section Uninstall
   Delete "$STARTMENU\ParticleEditor.lnk"
   Delete "$DESKTOP\ParticleEditor.lnk"
   Delete "$SMPROGRAMS\$ICONS_GROUP\ParticleEditor.lnk"
+  
+  Delete "$INSTDIR\*.qm"
+  Delete "$INSTDIR\*.ini"
 
   RMDir "$SMPROGRAMS\$ICONS_GROUP"
   RMDir "$INSTDIR\plists"

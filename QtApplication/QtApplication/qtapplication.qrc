@@ -1,12 +1,11 @@
 <RCC>
   <qresource prefix="QtApplication">
+    <file>Resources/icon/about.png</file>
     <file>Resources/icon/dialog.png</file>
-    <file>Resources/icon/2.png</file>
-    <file>Resources/icon/i-1.png</file>
-    <file>Resources/icon/open1.png</file>
-    <file>Resources/icon/play 1.png</file>
-    <file>Resources/icon/save as 1.png</file>
-    <file>Resources/icon/save as -1.png</file>
-    <file>Resources/icon/save1.png</file>
+    <file>Resources/icon/open.png</file>
+    <file>Resources/icon/play.png</file>
+    <file>Resources/icon/reset.png</file>
+    <file>Resources/icon/save.png</file>
+    <file>Resources/icon/saveas.png</file>
   </qresource>
 </RCC>

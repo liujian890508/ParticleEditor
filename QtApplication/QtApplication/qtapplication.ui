@@ -3622,7 +3622,7 @@ Variance</string>
    </property>
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/2.png</normaloff>:/QtApplication/Resources/icon/2.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/open.png</normaloff>:/QtApplication/Resources/icon/open.png</iconset>
    </property>
    <property name="text">
     <string>Open</string>
@@ -3634,7 +3634,7 @@ Variance</string>
   <action name="action_Save">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/save1.png</normaloff>:/QtApplication/Resources/icon/save1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/save.png</normaloff>:/QtApplication/Resources/icon/save.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Save</string>
@@ -3646,7 +3646,7 @@ Variance</string>
    </property>
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/2.png</normaloff>:/QtApplication/Resources/icon/2.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/open.png</normaloff>:/QtApplication/Resources/icon/open.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Open</string>
@@ -3655,7 +3655,7 @@ Variance</string>
   <action name="actionSave_As">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/save as -1.png</normaloff>:/QtApplication/Resources/icon/save as -1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/saveas.png</normaloff>:/QtApplication/Resources/icon/saveas.png</iconset>
    </property>
    <property name="text">
     <string>Save &amp;As</string>
@@ -3669,7 +3669,7 @@ Variance</string>
   <action name="action_Play">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/play 1.png</normaloff>:/QtApplication/Resources/icon/play 1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/play.png</normaloff>:/QtApplication/Resources/icon/play.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Play</string>
@@ -3681,7 +3681,7 @@ Variance</string>
   <action name="action_Reset">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/save as 1.png</normaloff>:/QtApplication/Resources/icon/save as 1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/reset.png</normaloff>:/QtApplication/Resources/icon/reset.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Reset</string>
@@ -3690,7 +3690,7 @@ Variance</string>
   <action name="actionSave_as">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/save as -1.png</normaloff>:/QtApplication/Resources/icon/save as -1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/saveas.png</normaloff>:/QtApplication/Resources/icon/saveas.png</iconset>
    </property>
    <property name="text">
     <string>Save &amp;as</string>
@@ -3699,7 +3699,7 @@ Variance</string>
   <action name="action_About">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/i-1.png</normaloff>:/QtApplication/Resources/icon/i-1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/about.png</normaloff>:/QtApplication/Resources/icon/about.png</iconset>
    </property>
    <property name="text">
     <string>&amp;About</string>
@@ -3708,7 +3708,7 @@ Variance</string>
   <action name="actionSave">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/save1.png</normaloff>:/QtApplication/Resources/icon/save1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/save.png</normaloff>:/QtApplication/Resources/icon/save.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Save</string>
@@ -3717,7 +3717,7 @@ Variance</string>
   <action name="action_About_2">
    <property name="icon">
     <iconset resource="qtapplication.qrc">
-     <normaloff>:/QtApplication/Resources/icon/i-1.png</normaloff>:/QtApplication/Resources/icon/i-1.png</iconset>
+     <normaloff>:/QtApplication/Resources/icon/about.png</normaloff>:/QtApplication/Resources/icon/about.png</iconset>
    </property>
    <property name="text">
     <string>&amp;About</string>
